@@ -15,7 +15,7 @@ Dieses Programm läuft unter Windows und Linux, sowie als App auf einem Android 
 
 <b>Android</b>
 <p align="center">
-<img src="img/mynn_android.jpg">
+<img src="img/mynn_android.jpg" width="200" >
 </p>
 
 Als Framework für beide Programme wird QT in der Version 5.15.2 genutzt. [^3]. 
