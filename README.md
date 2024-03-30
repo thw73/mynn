@@ -22,7 +22,7 @@ Dieses Programm läuft unter Windows und Linux, sowie als App auf einem Android 
 Als Framework für beide Programme wird QT in der Version 5.15.2 genutzt. [^3]. 
 Da sich die Schnittstelle zwischen QML und den Multimedia Klassen in QT6 stark geändert hat, kann QT in der Version 6.x nicht für mynnwebcam genutzt werden.
 
-## MYNN
+## MYNN Klasse
 
 #### Hinweise für die Compilierung der Software
 Neben dem QT Framework, wird für Vector-Operationen, wie Transpose, die EigenLib [^4] [^5] genutzt. Hier muss der Include-Pfad in der Datei mynn_eigenKlasse.pro angepasst werden: <br>
