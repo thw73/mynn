@@ -8,9 +8,10 @@ Unter mynn ist eine Cpp Implementierung von diesem Algorithmus zu finden.
 Um dieses neuronale Netz praktisch zu testen und zu nutzen zu können, wird unter mynnwebcam das in mynn erstellte und trainierte neuronale Netz genutzt, um per Webcam einzelne Ziffern zu erkennen.
 Dieses Programm läuft unter Windows und Linux, sowie als App auf einem Android Device
 
-<b>Linux / Windows</b> 
+<b>Linux / Windows</b>
+
 <p align="center">
-<img src="img/mynn_pc.png">
+<img src="img/mynn_pc.png" width="400">
 </p>
 
 <b>Android</b>
