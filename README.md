@@ -23,7 +23,6 @@ Als Framework für beide Programme wird QT in der Version 5.15.2 genutzt. [^3].
 Da sich die Schnittstelle zwischen QML und den Multimedia Klassen in QT6 stark geändert hat, kann QT in der Version 6.x nicht für mynnwebcam genutzt werden.
 
 ## MYNN
-### Erklärung der Klasse
 
 #### Hinweise für die Compilierung der Software
 Neben dem QT Framework, wird für Vector-Operationen, wie Transpose, die EigenLib [^4] [^5] genutzt. Hier muss der Include-Pfad in der Datei mynn_eigenKlasse.pro angepasst werden: <br>
@@ -65,6 +64,7 @@ Auch hier wird die EigenLib [^4] genutzt.
 Zur Bildaufbereitung wird die OpenCV Libary [^7] verwendet. Getestet wurde die Software unter Windows und Android mit der OpenCV Version 4.5.2 siehe [^8] bzw. [^9]. Unter Linux wurde, die mit der Linux-Distribution ausgelieferte, OpenCV Version genutzt. 
 
 ### Erklärung der Klassen
+tbd.
 
 #### Hinweise für die Compilierung der Software
 
