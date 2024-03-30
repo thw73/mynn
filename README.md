@@ -88,14 +88,14 @@ Ggf. müssen die Variablen INCLUDEPATH und LIBS für OpenCV in mynn_eigenKlasse.
 Für das Deployment der wih.cvs & who.cvs Dateien, muss im QT Creator unter Einstellung zur Ausführung „install“ bei Make arguments angeben werden. Damit werden diese Dateinen in Build-Verzeichnis kopiert.
 
 <p align="center">
-<img src="doc/QT_Install.png">
+<img src="img/QT_Install.png">
 </p>
 
 Hinweis für Android:<br>
 Als Target-Architektur wird arm64-v8a verwendet.<br>
 Deshalb darf im QT Creator unter Projekt Build Einstellungen, nur die arm64-v8a ABI ausgewählt sein.
 <p align="center">
-<img src="doc/QT_Android_arm64.png">
+<img src="img/QT_Android_arm64.png">
 </p>
  
 
