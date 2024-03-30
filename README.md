@@ -3,9 +3,9 @@
 Implementierung eines einfachen neuronalen Netzes zur Erkennung von Ziffern.
 Der Algorithmus basiert auf dem, im Buch von Tariq Rashid [^1] vorgestellten Algorithmus.  Der Autor hat auch den Python-Code zu seinem Buch in Github abgelegt [^2].
 
-Unter [mynn](https://github.com/thw73/mynn/tree/main/mynnKlasse) ist eine Cpp Implementierung von diesem Algorithmus zu finden.
+Unter [mynnKlasse](https://github.com/thw73/mynn/tree/main/mynnKlasse) ist eine Cpp Implementierung von diesem Algorithmus zu finden.
 
-Um dieses neuronale Netz praktisch zu testen und zu nutzen zu können, wird unter [[mynncam](https://github.com/thw73/mynn/tree/main/mynnCam)] das in mynn erstellte und trainierte neuronale Netz genutzt, um per Webcam einzelne Ziffern zu erkennen.
+Um dieses neuronale Netz praktisch zu testen und zu nutzen zu können, wird unter [[mynncam](https://github.com/thw73/mynn/tree/main/mynnCam)] das in mynnKlasse erstellte und trainierte neuronale Netz genutzt, um per Webcam einzelne Ziffern zu erkennen.
 Dieses Programm läuft unter Windows und Linux, sowie als App auf einem Android Device
 
 <b>Linux / Windows</b>
