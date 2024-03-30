@@ -1,0 +1,5 @@
+# matches any files and directories with the name test
+build*
+mynnCam/MynnCam.pro.user
+mynnKlasse.pro.user
+
