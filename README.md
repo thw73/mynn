@@ -7,7 +7,16 @@ Unter mynn ist eine Cpp Implementierung von diesem Algorithmus zu finden.
 
 Um dieses neuronale Netz praktisch zu testen und zu nutzen zu können, wird unter mynnwebcam das in mynn erstellte und trainierte neuronale Netz genutzt, um per Webcam einzelne Ziffern zu erkennen.
 Dieses Programm läuft unter Windows und Linux, sowie als App auf einem Android Device
-„Screenshots“
+
+<b>Linux / Windows</b> 
+<p align="center">
+<img src="img/mynn_pc.png">
+</p>
+
+<b>Android</b>
+<p align="center">
+<img src="img/mynn_android.jpg">
+</p>
 
 Als Framework für beide Programme wird QT in der Version 5.15.2 genutzt. [^3]. 
 Da sich die Schnittstelle zwischen QML und den Multimedia Klassen in QT6 stark geändert hat, kann QT in der Version 6.x nicht für mynnwebcam genutzt werden.
