@@ -56,7 +56,7 @@ mynn -t mnist_train.csv –cs mnist_test.csv --swih wih.cvs --swho who.cvs
 ```
 
 # MYNN-Webcam
-In diesem Beispiel wird die in LINK erstellte Klasse mynn, etwas angepasst, genutzt um Ziffern per Webcam bzw. der Smartphone-Kamera zu erkennen.
+In diesem Beispiel wird die in [mynnKlasse](https://github.com/thw73/mynn/tree/main/mynnKlasse) erstellte Klasse, etwas angepasst, genutzt um Ziffern per Webcam bzw. der Smartphone-Kamera zu erkennen.
 
 ## MYNN-APP
 Als Basis für die Software, dient das Beispiel von Stephen Quan [^9] zur Nutzung der QAbstractVideoFilter Klasse von QT.
