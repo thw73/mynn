@@ -63,11 +63,11 @@ Als Basis für die Software, dient das Beispiel von Stephen Quan [^9] zur Nutzun
 Auch hier wird die EigenLib [^4] genutzt.
 Zur Bildaufbereitung wird die OpenCV Libary [^7] verwendet. Getestet wurde die Software unter Windows und Android mit der OpenCV Version 4.5.2 siehe [^8] bzw. [^9]. Unter Linux wurde, die mit der Linux-Distribution ausgelieferte, OpenCV Version genutzt. 
 
-### Erklärung der Klassen
+### Klassendiagram
 
 
 <p align="center">
-<img src="img/mynnCamKlassendiagramm.png" width="200" >
+<img src="img/mynnCamKlassendiagramm.png">
 </p>
 
 #### Hinweise für die Compilierung der Software
