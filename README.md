@@ -11,7 +11,7 @@ Dieses Programm läuft unter Windows und Linux, sowie als App auf einem Android 
 <b>Linux / Windows</b>
 
 <p align="center">
-<img src="img/mynn_pc.png" width="400">
+<img src="img/mynn_pc.png" width="800">
 </p>
 
 <b>Android</b>
