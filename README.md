@@ -59,9 +59,9 @@ mynn -t mnist_train.csv –cs mnist_test.csv --swih wih.cvs --swho who.cvs
 In diesem Beispiel wird die in [mynnKlasse](https://github.com/thw73/mynn/tree/main/mynnKlasse) erstellte Klasse, etwas angepasst, genutzt um Ziffern per Webcam bzw. der Smartphone-Kamera zu erkennen.
 
 ## MYNN-APP
-Als Basis für die Software, dient das Beispiel von Stephen Quan [^9] zur Nutzung der QAbstractVideoFilter Klasse von QT.
+Als Basis für die Software, dient das Beispiel von Stephen Quan [^10] zur Nutzung der QAbstractVideoFilter Klasse von QT.
 Auch hier wird die EigenLib [^4] genutzt.
-Zur Bildaufbereitung wird die OpenCV Libary [^7] verwendet. Getestet wurde die Software unter Windows und Android mit der OpenCV Version 4.5.2 siehe [^8] bzw. [^9]. Unter Linux wurde, die mit der Linux-Distribution ausgelieferte, OpenCV Version genutzt. 
+Zur Bildaufbereitung wird die OpenCV Libary [^7] verwendet. Getestet wurde die Software unter Windows mit der OpenCV Version 4.5.2 und Android mit der Version 4.5.4, siehe [^8] bzw. [^9]. Unter Linux wurde, die mit der Linux-Distribution ausgelieferte, OpenCV Version genutzt. 
 
 ### Klassendiagram
 
@@ -69,10 +69,20 @@ Zur Bildaufbereitung wird die OpenCV Libary [^7] verwendet. Getestet wurde die S
 <p align="center">
 <img src="img/mynnCamKlassendiagramm.png">
 </p>
+<br>
+<b> Main: </b> Hier werden die Klassen instanziert und die Verbindung zur QML GUI hergestellt.<br>
+<b> MynnWrapper: </b> Initialisiert das neuronale Netz und berechnet aus dem Bild die erkannte Ziffer.<br>
+<b> Mynn: </b> Neuronale Netz zur Berechnung der erkannten Ziffer.<br>
+<b> MyImageProvider: </b> Sendet das in MyFilter berarbeitete Bild an die QML GUI.<br>
+<b> MyFilter: </b>  Wandelt das Kamerabild in ein Schwarzweiss-Bild um. Reduziert die Bildgroeße auf die fuer das neuronale Netz benoetigte Groesse von 28x28 Pixeln.<br>
+<b> MyFilterRunnable: </b> Stellt die Schnittstelle zwischen Kamera und QML GUI dar.<br>
 
-#### Hinweise für die Compilierung der Software
 
-##### Anpassung der *.pro Datei
+
+
+### Hinweise für die Compilierung der Software
+
+#### Anpassung der *.pro Datei
 
 Je nach dem für welches Betriebssytem, die Software erstellt werden soll, müssen die Variablen, angepasst werden.
 
@@ -97,7 +107,7 @@ Hier wurden die mit der Linux-Distribution ausgelieferte OpenCV Version genutzt.
 Ggf. müssen die Variablen INCLUDEPATH und LIBS für OpenCV in mynn_eigenKlasse.pro angepasst werden.
 
 
-##### Anpassung QT Creator Einstellungen:
+#### Anpassung QT Creator Einstellungen:
 
 Für das Deployment der wih.cvs & who.cvs Dateien, muss im QT Creator unter Einstellung zur Ausführung „install“ bei Make arguments angeben werden. Damit werden diese Dateinen in Build-Verzeichnis kopiert.
 
