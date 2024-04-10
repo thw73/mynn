@@ -50,7 +50,7 @@ Trainieren und testen vom neuronalen Netz:<br>
 ``` 
 mynn -t mnist_train.csv –cs mnist_test.csv
 ``` 
-Trainieren und testen vom neuronalen Netz inkl abspeichnern der gelernten Werte:<br>
+Trainieren und testen vom neuronalen Netz inkl. abspeichnern der gelernten Werte:<br>
 ``` 
 mynn -t mnist_train.csv –cs mnist_test.csv --swih wih.cvs --swho who.cvs
 ```
