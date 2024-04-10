@@ -63,7 +63,7 @@ Als Basis für die Software, dient das Beispiel von Stephen Quan [^10] zur Nutzu
 Auch hier wird die EigenLib [^4] genutzt.
 Zur Bildaufbereitung wird die OpenCV Libary [^7] verwendet. Getestet wurde die Software unter Windows mit der OpenCV Version 4.5.2 und Android mit der Version 4.5.4, siehe [^8] bzw. [^9]. Unter Linux wurde, die mit der Linux-Distribution ausgelieferte, OpenCV Version genutzt. 
 
-### Klassendiagram
+### Architektur
 
 
 <p align="center">
