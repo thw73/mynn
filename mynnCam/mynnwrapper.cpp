@@ -4,8 +4,8 @@
 *
 * Beschreibung: - Initialisiert das neuronale Netz
 *               - Berechnet aus dem abereitetem Capture Bild
-*                 ueber das neuronale Netz die Zahl
-*               - sendet die Zahl als Textinformation aus
+*                 ueber das neuronale Netz die Ziffer
+*               - sendet die Ziffer als Textinformation aus
 *
 **************************************************************************/
 
@@ -38,10 +38,10 @@ mynnwrapper::~mynnwrapper()
 }
 
 /****************************************************************
-* Funktion      : Ermittle die Zahl
-* Beschreibung  : Erkenne aus dem Ziffernbild ueber das neuronale Netz die Zahl
+* Funktion      : Ermittle die Ziffer
+* Beschreibung  : Erkenne aus dem Ziffernbild ueber das neuronale Netz die Ziffer
 * Eingang       : Schwarz-Weiss Ziffernbild in der Aufloesung 28x28 Pixel
-* Ausgang       : Erkannte Zahl wird als Text gesendet
+* Ausgang       : Erkannte Ziffer wird als Text gesendet
 ****************************************************************/
 
 void mynnwrapper::calcmynn(QImage qt_imageSmal)
