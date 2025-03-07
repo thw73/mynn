@@ -1,8 +1,8 @@
 /***************************************************************************
 *                                                                          *
 * Beschreibung: Neuronales Netz zur Erkennung von Ziffern.
-*				Der Algorithmus basiert auf dem, im Buch von Tariq Rashid 
-*				Neuronale Netze selbst programmieren
+*		Der Algorithmus basiert auf dem, im Buch von Tariq Rashid 
+*		Neuronale Netze selbst programmieren
 *
 *				
 **************************************************************************/
@@ -47,13 +47,13 @@ int main(int argc, char *argv[])
     mynnwrapper m_MynnWrapper;
 
     qmlEngine.rootContext()->setContextProperty("myClassObj",&m_MynnWrapper); // Fuer Connections in QML
-																			  // target: myClassObj
+									      // target: myClassObj
 															
 
     MyImageProvider *m_MyImageProvider(new MyImageProvider);
 
     qmlEngine.rootContext()->setContextProperty("ImageProvider",m_MyImageProvider); // Fuer Connections in QML
-																				    // target: ImageProvider
+										    // target: ImageProvider
 
     qmlEngine.addImageProvider("myimg", m_MyImageProvider);
 
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
     qmlRegisterUncreatableType<MyFilter>("MyFilterLib", 1, 0, "MyFilter","Hallo");
 
     qmlEngine.rootContext()->setContextProperty("filter", &m_MyFiler); // In QML muss dann "filter" für die Methoden von MyFilter 
-																	   // genutzt werden: [filter] bzw. filter.capture
+							               // genutzt werden: [filter] bzw. filter.capture
 
 
     qmlEngine.load(QStringLiteral("qrc:/main.qml"));
