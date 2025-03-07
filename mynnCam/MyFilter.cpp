@@ -85,8 +85,8 @@ void MyFilter::setCapturing( bool capturing )
 /****************************************************************
 * Funktion      : Bildverarbeitung
 * Beschreibung  : - Wandelt das Kamerabild in ein Schwarzweiss-Bild um
-*               : - Reduziert die Bildgroeße auf die fuer das neuronale Netz
-*               :   benoetigte Groesse von 28x28 Pixeln
+*               : - Reduziert die Bildgroeße auf, die fuer das neuronale Netz
+*               :   benoetigte Groesse von, 28x28 Pixeln
 * Returnwert    : sendet das verarbeitet Kamerabild
 * Parameter     : Kamerabild
 ****************************************************************/
